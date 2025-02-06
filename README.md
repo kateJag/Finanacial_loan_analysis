@@ -2,17 +2,17 @@
 > Analysis of loan applications and repayment performance using SQL for data preparation and Tableau for interactive dashboards.
 
 ## 📋 Table of Contents
-- [📚 Project Overview](#📚-project-overview)
+- [Project Overview](#project-overview)
 - [📊 Dataset Description](#📊-dataset-description) & [💻 Tools and Technologies](#💻-tools-and-technologies)
 - [📈 Key Dashboards](#📈-key-dashboards)
-  - [🔹 1. Loan Performance Summary](#🔹-1-loan-performance-summary)
-  - [🔹 2. Loan Trends Overview](#🔹-2-loan-trends-overview)
+  - [🔹 1. Loan Performance Summary](#1-loan-performance-summary)
+  - [🔹 2. Loan Trends Overview](#2-loan-trends-overview)
   - [🔹 3. Loan Details and Risk Analysis](#🔹-3-loan-details-and-risk-analysis)
 - [🖋️ Queries and Analysis](#🖋️-queries-and-analysis)
 - [💡 Key Insights](#💡-key-insights)
 ---
 
-## **📚 Project Overview**
+## **Project Overview**
 This project analyzes bank loan data to uncover key lending trends, borrower characteristics, and loan performance metrics. Using **SQL**, **Python**, and **Tableau**, I built interactive dashboards to provide decision-makers with actionable insights into loan applications, funding, and repayment.
 
 The project focuses on answering business questions like:
@@ -42,7 +42,7 @@ The dataset includes **38,000 loan records** with the following key features:
 ## **📈 Key Dashboards**
 This project includes **three interactive dashboards**, each providing valuable insights:
 
-### 🔹 **1. Loan Performance Summary**
+### **1. Loan Performance Summary**
 - **Purpose:** Provides an overview of key performance indicators, including loan applications, funded amounts, and payment collections.
 - **Interactivity:** Filters for loan purpose, grade, and verification status.
 - **Visuals:** Donut charts for performing and non-performing loans, loan status summary, and monthly performance comparisons.
@@ -50,7 +50,7 @@ This project includes **three interactive dashboards**, each providing valuable 
 
 ![Summary](assets/Summary.png)
 
-### 🔹 **2. Loan Trends Overview**
+### **2. Loan Trends Overview**
  - **Purpose:** Examines monthly trends, regional performance, loan term preferences, and borrower characteristics.
 - **Interactivity:** Dynamic measure selector for total loan applications, funded amounts, and received payments.
 - **Visuals:** Line charts for monthly trends, state-level maps, and breakdowns by employee length, loan purpose, and homeownership status.
