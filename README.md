@@ -2,14 +2,14 @@
 > Analysis of loan applications and repayment performance using SQL for data preparation and Tableau for interactive dashboards.
 
 ## 📋 Table of Contents
-- [Project Overview](#project-overview)
-- [📊 Dataset Description](#📊-dataset-description) & [💻 Tools and Technologies](#💻-tools-and-technologies)
-- [📈 Key Dashboards](#📈-key-dashboards)
+- [ Project Overview](#project-overview)
+- [ Dataset Description](#dataset-description) & [Tools and Technologies](#tools-and-technologies)
+- [📈 Key Dashboards](#key-dashboards)
   - [🔹 1. Loan Performance Summary](#1-loan-performance-summary)
   - [🔹 2. Loan Trends Overview](#2-loan-trends-overview)
-  - [🔹 3. Loan Details and Risk Analysis](#🔹-3-loan-details-and-risk-analysis)
-- [🖋️ Queries and Analysis](#🖋️-queries-and-analysis)
-- [💡 Key Insights](#💡-key-insights)
+  - [🔹 3. Loan Details and Risk Analysis](#3-loan-details-and-risk-analysis)
+- [Queries and Analysis](#queries-and-analysis)
+- [Key Insights](#key-insights)
 ---
 
 ## **Project Overview**
@@ -22,7 +22,7 @@ The project focuses on answering business questions like:
 
 ---
 
-## **📊 Dataset Description**
+## **Dataset Description**
 The dataset includes **38,000 loan records** with the following key features:
 - **Loan Status:** Fully Paid, Charged Off, Current
 - **Loan Amounts:** Amount funded, amount received, and outstanding balance
@@ -32,14 +32,14 @@ The dataset includes **38,000 loan records** with the following key features:
 
 ---
 
-## **💻 Tools and Technologies**
+## **Tools and Technologies**
 - **SQL:** Data extraction, cleaning, and preprocessing  
 - **Tableau Desktop:** Dashboard creation and visualization   
 - **Jupyter Notebook:** Supporting queries and Python analysis (if applicable)  
 
 ---
 
-## **📈 Key Dashboards**
+## **Key Dashboards**
 This project includes **three interactive dashboards**, each providing valuable insights:
 
 ### **1. Loan Performance Summary**
@@ -58,7 +58,7 @@ This project includes **three interactive dashboards**, each providing valuable 
 
 ![Overview](assets/Overview.png)
 
-### 🔹 **3. Loan Details and Risk Analysis**
+### **3. Loan Details and Risk Analysis**
 - **Purpose:** Deep dive into specific loan statuses, borrower characteristics, and performance at a granular level.
 - **Interactivity:** Filters for individual records and comparative measures across dimensions.
 - **Tableau Dashboards:** Published on **Tableau Public**  - [Bank Loan Report | DETAILS](https://public.tableau.com/app/profile/kateryna.zahrebina/viz/BankLoanReport_17387175778250/Summary), **Navigate to Details dashboard** using the built-in navigation buttons
@@ -66,7 +66,7 @@ This project includes **three interactive dashboards**, each providing valuable 
 ![Details](assets/Details.png)
 ---
 
-# **🖋️ Queries and Analysis**
+# **Queries and Analysis**
 ## **📊 SUMMARY DASHBOARD Analysis and Insights**
 
 ### ** Relationship Between Loan Performance and Borrower Behavior**
@@ -175,7 +175,7 @@ ORDER BY Total_funded_amount DESC;
 ✨**Key Insight:** The high preference for 60-month loans shows that many borrowers prioritize manageable monthly payments over reducing total interest. Adjusting interest rate structures to incentivize shorter loan terms could improve long-term revenue and reduce credit risk.
 
 
-## **💡 Key Insights**
+## **Key Insights**
 This section contains data-driven insights uncovered during the analysis, including patterns in loan performance, borrower profiles, and opportunities for business optimization.
 
 1. **Loan Demand Surged Toward Year-End:**  
