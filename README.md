@@ -12,7 +12,7 @@
 - [💡 Key Insights](#💡-key-insights)
 ---
 
-## **📚 Project Overview** <a name="project-overview"></a>
+## **📚 Project Overview**
 This project analyzes bank loan data to uncover key lending trends, borrower characteristics, and loan performance metrics. Using **SQL**, **Python**, and **Tableau**, I built interactive dashboards to provide decision-makers with actionable insights into loan applications, funding, and repayment.
 
 The project focuses on answering business questions like:
@@ -48,7 +48,7 @@ This project includes **three interactive dashboards**, each providing valuable 
 - **Visuals:** Donut charts for performing and non-performing loans, loan status summary, and monthly performance comparisons.
 - **Tableau Dashboards:** Published on **Tableau Public**  - [Bank Loan Report | SUMMARY](https://public.tableau.com/app/profile/kateryna.zahrebina/viz/BankLoanReport_17387175778250/Summary)
 
-![Summary](assets/summary.png)
+![Summary](assets/Summary.png)
 
 ### 🔹 **2. Loan Trends Overview**
  - **Purpose:** Examines monthly trends, regional performance, loan term preferences, and borrower characteristics.
@@ -56,7 +56,7 @@ This project includes **three interactive dashboards**, each providing valuable 
 - **Visuals:** Line charts for monthly trends, state-level maps, and breakdowns by employee length, loan purpose, and homeownership status.
 - **Tableau Dashboards:** Published on **Tableau Public**  - [Bank Loan Report | OVERVIEW](https://public.tableau.com/app/profile/kateryna.zahrebina/viz/BankLoanReport_17387175778250/Summary) **Navigate to Overview dashboard** using the built-in navigation buttons.
 
-![Overview](assets/overview.png)
+![Overview](assets/Overview.png)
 
 ### 🔹 **3. Loan Details and Risk Analysis**
 - **Purpose:** Deep dive into specific loan statuses, borrower characteristics, and performance at a granular level.
